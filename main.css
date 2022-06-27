@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Fonts */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif; */
+
+
+
+/* Header-nav */
+
+.header-nav {
+    min-width: 1240px;
+    height: 50px;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 66px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.logo {
+    margin-right: 378px;
+}
+
+.nav {
+    margin-right: 58px;
+
+}
+
+
+.shop {
+    margin-right: 30px;
+}
+
+
+.nav-list {
+    margin-right: 50px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #222224;
+}
+
+.nav-list:last-child {
+    margin-right: 0;
+}
+
+.registr {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+}
+
+.registr-list1 {
+    padding: 14px 28px;
+    width: 128px;
+    height: 48px;
+    margin-right: 30px;
+    color: #EC994B;
+    border: 1px solid #EC994B;
+    border-radius: 41px;
+}
+
+.registr-list2 {
+    padding: 14px 28px;
+    width: 128px;
+    height: 48px;
+    color: #fff;
+    background-color: #EC994B;
+    border-radius: 41px;
+}
+
+/* Main */
+
+
+
+.introduction {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    
+}
+
+.introduction-left {
+    margin-right: 52px;
+    width: 535px;
+    height: 509px;
+}
+
+.introduction-text {
+}
+
+.review {
+}
+
+.introduction-right {
+    width: 719px;
+    height: 562px;
+}
+
+
+
+
