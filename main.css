@@ -7,6 +7,14 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
+.container {
+
+}
+
 /* Fonts */
 
 /* font-family: 'Montserrat', sans-serif;
@@ -38,19 +46,15 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .nav {
-    margin-right: 58px;
-
+    margin-right: 58px;  
 }
 
-
-.shop {
-    margin-right: 30px;
+.nav-list_1 {
+    display: flex;
 }
 
-
-.nav-list {
+.nav-list  {
     margin-right: 50px;
-    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -61,6 +65,10 @@ font-family: 'Quicksand', sans-serif; */
 
 .nav-list:last-child {
     margin-right: 0;
+}
+
+.shop {
+    margin-right: 30px;
 }
 
 .registr {
@@ -109,10 +117,46 @@ font-family: 'Quicksand', sans-serif; */
 }
 
 .introduction-text {
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #797979;
+}
+
+.title {
+    margin-bottom: 25px;
+    width: 529px;
+    height: 231px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    color: #222224;
 }
 
 .review {
+    margin-top: 48px;
+    display: flex;
 }
+
+.img-review {
+
+}
+
+.text-review {
+
+}
+
+.mark-review {
+    
+}
+
 
 .introduction-right {
     width: 719px;
